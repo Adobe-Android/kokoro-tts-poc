@@ -90,24 +90,99 @@ Command Prompt (Windows)
 python -m pip install -r requirements.txt
 ```
 
-### Run
+### Run (Simple)
 
 ```powershell
 .venv/Scripts/python ./src/simple.py
 ```
 
-### Sample
+### Sample (Simple)
 
-<audio controls>
-  <source src="samples/simple_af_bella_output.wav" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
+Voice: af_bella
 
-### Run (Alternative Example)
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_bella_output.wav)
+
+### Run (Advanced)
 
 ```powershell
 .venv/Scripts/python ./src/advanced.py bee.txt
 ```
+
+### Sample (Advanced)
+
+Voice: af_bella
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/advanced_af_bella_output.wav)
+
+### Other Samples
+
+Voice: af_alloy
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_alloy_output.wav)
+
+Voice: af_aoede
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_aoede_output.wav)
+
+Voice: af_jessica
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_jessica_output.wav)
+
+Voice: af_kore
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_kore_output.wav)
+
+Voice: af_nicole
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_nicole_output.wav)
+
+Voice: af_nova
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_nova_output.wav)
+
+Voice: af_river
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_river_output.wav)
+
+Voice: af_sarah
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_sarah_output.wav)
+
+Voice: af_sky
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_af_sky_output.wav)
+
+Voice: am_adam
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_adam_output.wav)
+
+Voice: am_echo
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_echo_output.wav)
+
+Voice: am_eric
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_eric_output.wav)
+
+Voice: am_fenrir
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_fenrir_output.wav)
+
+Voice: am_lisimple_am
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_lisimple_am_output.wav)
+
+Voice: am_michael
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_michael_output.wav)
+
+Voice: am_onyx
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_onyx_output.wav)
+
+Voice: am_puck
+
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_puck_output.wav)
 
 ## Libraries
 
