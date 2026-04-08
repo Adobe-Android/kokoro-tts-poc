@@ -168,9 +168,9 @@ Voice: am_fenrir
 
 🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_fenrir_output.wav)
 
-Voice: am_lisimple_am
+Voice: am_liam
 
-🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_lisimple_am_output.wav)
+🎵 [Click here to listen to the audio sample](https://retroware.nyc3.cdn.digitaloceanspaces.com/tts-poc/samples/simple_am_liam_output.wav)
 
 Voice: am_michael
 
