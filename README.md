@@ -10,9 +10,9 @@ A proof-of-concept text-to-speech project using...
 
 ## Compatibility
 
-Works with Linux, macOS, and Windows. Requires Python 3.10 or later.
+Works with Linux, macOS, and Windows. Requires Python 3.12 or later.
 
-Tested with Python 3.14.
+Tested with Python 3.12, 3.13, and 3.14.
 
 ## Usage
 
