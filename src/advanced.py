@@ -18,11 +18,9 @@ if not hf_token:
     sys.exit(1)
 
 # Initialize the Inference Client for the Kokoro-82M model
-# We specify provider="replicate" to ensure it routes correctly
 client = InferenceClient(
     model="hexgrad/Kokoro-82M",
-    token=hf_token,
-    provider="replicate"
+    token=hf_token
 )
 
 voice="af_bella" # defaults to af_bella if voice is not specified in the extra_body.
@@ -57,6 +55,7 @@ def main():
 
     # Split text into chunks to avoid the 60-second timeout
     # We'll split by newline, then further split if too long.
+    # Prompt must be less than 20,000 characters.
     raw_chunks = text.split('\n')
     chunks = []
     for c in raw_chunks:

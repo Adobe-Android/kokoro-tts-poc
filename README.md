@@ -6,7 +6,7 @@ A proof-of-concept text-to-speech project using...
 
 * [Hugging Face](https://hf.co/)
 * [hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) model for TTS (text-to-speech)
-* [Replicate](https://replicate.com/jaaari/kokoro-82m) for inference.
+* [fal](https://fal.ai/models/fal-ai/kokoro/american-english/playground) for inference.
 
 ## Compatibility
 
