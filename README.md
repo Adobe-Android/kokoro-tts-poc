@@ -1,4 +1,4 @@
-# tts-poc
+# kokoro-tts-poc
 
 A proof-of-concept text-to-speech project using...
 
