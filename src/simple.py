@@ -17,7 +17,8 @@ if not hf_token:
 # Initialize the Inference Client for the Kokoro-82M model
 client = InferenceClient(
     model="hexgrad/Kokoro-82M",
-    token=hf_token
+    token=hf_token,
+    provider="auto"
 )
 
 voice="af_bella" # defaults to af_bella if voice is not specified in the extra_body.

@@ -20,7 +20,8 @@ if not hf_token:
 # Initialize the Inference Client for the Kokoro-82M model
 client = InferenceClient(
     model="hexgrad/Kokoro-82M",
-    token=hf_token
+    token=hf_token,
+    provider="auto"
 )
 
 voice="af_bella" # defaults to af_bella if voice is not specified in the extra_body.
@@ -53,17 +54,17 @@ def main():
         print(f"ERROR: Input file '{input_file}' not found.")
         sys.exit(1)
 
-    # Split text into chunks to avoid the 60-second timeout
-    # We'll split by newline, then further split if too long.
     # Prompt must be less than 20,000 characters.
-    raw_chunks = text.split('\n')
+    # Split text into chunks to avoid issues.
+    # We'll split by double newline (paragraphs), then further split if too long.
+    raw_chunks = text.split('\n\n')
     chunks = []
     for c in raw_chunks:
         c = c.strip()
         if not c: continue
-        if len(c) > 500:
+        if len(c) > 19999:
             # Split large chunks further
-            sub_chunks = textwrap.wrap(c, width=500, break_long_words=False)
+            sub_chunks = textwrap.wrap(c, width=19999, break_long_words=False)
             chunks.extend(sub_chunks)
         else:
             chunks.append(c)
